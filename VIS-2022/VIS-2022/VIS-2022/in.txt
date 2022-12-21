@@ -1,0 +1,77 @@
+uint function sys(str s)
+{
+new uint l;
+l = length(s);
+return l;
+}
+
+procedure function op(uint a, uint b)
+{
+print "a = ";
+print a;
+print ", b = ";
+print b;
+newline;
+new uint c;
+c = ~ a;
+print "inversion of a = ";
+print c;
+newline;
+c = a | b;
+print "logical or - a, b = ";
+print c;
+newline;
+c = a & b;
+print "logical and - a, b = ";
+print c;
+newline;
+c = (b + a) * (b + a) / 2;
+print "(b + a) * (b + a) / 2 = ";
+print c;
+newline;
+new uint z;
+return;
+}
+
+main
+{
+new uint x = 6;
+new uint y = 10;
+op(x, y);
+
+new uint z;
+new str strx = "hello";
+z = length(strx);
+print "length of *hello* is ";
+print z;
+newline;
+
+new str stry = " world!";
+new str result;
+result = concat(strx, stry);
+print result;
+newline;
+
+if x > y#
+true 
+{
+print "x is bigger than y";
+}
+false
+{
+print "y is bigger than x";
+}#
+newline;
+new uint res;
+new str st = "8";
+res = strton (st);
+print res;
+newline;
+if res > 1#
+cycle
+{
+print res;
+newline;
+res = res / 2;
+}#
+} 

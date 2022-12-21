@@ -1,0 +1,5 @@
+﻿  Assembling asm.asm...
+LINK : warning LNK4098: библиотека по умолчанию "libucrt.lib" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+StaticLib.lib(pch.obj) : warning LNK4099: "StaticLib.pdb" PDB не найден с "StaticLib.lib(pch.obj)" или на "D:\Универ\3-й семестр\Лабы КПО\Term_Project\VIS-2022\VIS-2022\Debug\StaticLib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+StaticLib.lib(StaticLib.obj) : warning LNK4099: "StaticLib.pdb" PDB не найден с "StaticLib.lib(StaticLib.obj)" или на "D:\Универ\3-й семестр\Лабы КПО\Term_Project\VIS-2022\VIS-2022\Debug\StaticLib.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  Asm.vcxproj -> D:\Универ\3-й семестр\Лабы КПО\Term_Project\VIS-2022\VIS-2022\Debug\Asm.exe
